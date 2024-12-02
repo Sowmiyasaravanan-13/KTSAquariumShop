@@ -1,0 +1,109 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+ /* Add this CSS to your stylesheet */
+@keyframes rotateAndPause {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.rotate-and-pause {
+  animation: rotateAndPause 4s ease-in-out infinite;
+}
+
+.group:hover .group-hover\\:block {
+  display: block;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  padding: 0;
+}
+
+nav .relative {
+  position: relative;
+}
+
+nav .absolute {
+  position: absolute;
+}
+
+nav .hidden {
+  display: none;
+}
+
+nav .block {
+  display: block;
+}
+
+nav .bg-white {
+  background-color: white;
+}
+
+nav .border {
+  border: 1px solid;
+}
+
+nav .border-gray-200 {
+  border-color: #e5e7eb;
+}
+
+nav .shadow-lg {
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+nav .rounded-md {
+  border-radius: 0.375rem;
+}
+
+nav .text-gray-700 {
+  color: #4a5568;
+}
+
+nav .hover\\:text-green-400:hover {
+  color: #68d391;
+}
+
+/* Keyframe animation for the entry effect */
+@keyframes imageEntry {
+  0% {
+    opacity: 0;
+    transform: scale(0.9) translateY(20px); /* Start smaller and lower */
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) translateY(0); /* End at normal size and position */
+  }
+}
+
+/* Apply the animation on page load */
+.animated-image {
+  animation: imageEntry 5s ease-out; /* 2-second animation on page load */
+  transition: transform 0.3s ease-out, box-shadow 0.3s ease-out; /* Smooth hover effect */
+}
+
+/* Hover effect for image */
+.animated-image:hover {
+  transform: scale(1.08) translateY(-5px); /* Scale up a bit and move up */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); /* Add a shadow on hover */
+}
+
+.fixed-width {
+  width: 100%; /* This ensures the image takes up the full width of its container */
+  height: auto; /* Maintain the aspect ratio of the image */
+  object-fit: cover; /* Ensures that images maintain their aspect ratio and cover the container */
+}
