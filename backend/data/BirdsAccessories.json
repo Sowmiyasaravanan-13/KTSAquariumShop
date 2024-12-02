@@ -1,0 +1,125 @@
+{
+    "products":[
+        {
+           "id": 1,
+            "name": "Rope Ladder",
+            "description": "A rope ladder is a flexible ladder with horizontal rungs connected by ropes, used for climbing or rescue.",
+            "image": "/uploads/images/RopeLadder.jpeg",
+            "originalPrice":"₹300.00",
+            "price": "₹260.00",
+            "quantity":10,
+            "inStock":true,
+            "rating": 4.7     
+        },
+        {
+            "id":2,
+            "name":"Cuttle Bone Holder",
+            "description":"A cuttle bone holder is a device used to securely hold and provide easy access to cuttle bones for birds, promoting beak health and calcium intake.",
+            "image":"/uploads/images/CuttleBoneHolder.jpeg",
+            "originalPrice":"₹70.00",
+            "price":"₹50.00",
+            "quantity":10,
+            "inStock":true,
+            "rating":4.7
+        },
+        {
+            "id":3,
+            "name":"Birds Net (Ac30)",
+            "description":"A bird net is a mesh barrier designed to protect birds from predators, prevent them from escaping, or keep them from entering unwanted areas.",
+            "image":"/uploads/images/BirdsNet.jpeg",
+            "originalPrice":"₹2000.00",
+            "price":"₹1800.00",
+            "quantity":10,
+            "inStock":true,
+            "rating":4.7
+        },
+        {
+            "id":4,
+            "name":"Bird Beak Scratcher (Ac40)",
+            "description":"The Bird Beak Scratcher (AC40) is a tool designed to help birds clean and maintain their beaks, promoting healthy beak growth and preventing overgrowth.",
+            "image":"/uploads/images/BirdBeakScratcher.jpeg",
+            "originalPrice":"₹1000.00",
+            "price":"₹800.00",
+            "quantity":10,
+            "inStock":true,
+            "rating":4.7
+        },
+        {
+            "id":5,
+            "name":"Wooden Ladder 40Inch",
+            "description":"The Wooden Ladder 40 Inch is a sturdy, wooden ladder measuring 40 inches in height, designed for birds to climb and exercise.",
+            "image":"/uploads/images/WoodenLadder40.jpeg",
+            "originalPrice":"₹1000.00",
+            "price":"₹850.00",
+            "quantity":10,
+            "inStock":true,
+            "rating":4.7
+        },
+        {
+            "id":6,
+            "name":"Wooden Ladder 22Inch",
+            "description":"The Wooden Ladder 22 Inch is a compact, wooden ladder measuring 22 inches in height, designed for birds to climb and play.",
+            "image":"/uploads/images/WoodenLadder22.jpeg",
+            "originalPrice":"₹800.00",
+            "price":"₹600.00",
+            "quantity":10,
+            "inStock":true,
+            "rating":4.7
+        },
+        {
+            "id":7,
+            "name":"Wooden Ladder Small",
+            "description":"The Wooden Ladder Small is a petite, wooden ladder ideal for small birds to climb and explore, providing exercise and enrichment.",
+            "image":"/uploads/images/WoodenLadderSmall.jpeg",
+            "originalPrice":"₹300.00",
+            "price":"₹280.00",
+            "quantity":10,
+            "inStock":true,
+            "rating":4.7
+        },
+        {
+            "id":8,
+            "name":"Cage Lock Small",
+            "description":"The Cage Lock Small is a secure, compact locking mechanism designed to keep small cages safely closed and prevent accidental openings.",
+            "image":"/uploads/images/CageLockSmall.jpeg",
+            "originalPrice":"₹50.00",
+            "price":"₹30.00",
+            "quantity":10,
+            "inStock":true,
+            "rating":4.7
+        },
+        {
+            "id":9,
+            "name":"Cage Lock Medium",
+            "description":"The Cage Lock Medium is a sturdy locking mechanism designed for medium-sized cages, ensuring secure closure and preventing accidental openings.",
+            "image":"/uploads/images/CageLockMedium.jpeg",
+            "originalPrice":"₹50.00",
+            "price":"₹30.00",
+            "quantity":10,
+            "inStock":true,
+            "rating":4.7
+        },
+        {
+            "id":10,
+            "name":"Cage Lock Big",
+            "description":"The Cage Lock Big is a robust locking mechanism designed for large cages, providing secure closure to prevent accidental openings and ensure safety.",
+            "image":"/uploads/images/CageLockBig.jpeg",
+            "originalPrice":"₹60.00",
+            "price":"₹40.00",
+            "quantity":10,
+            "inStock":true,
+            "rating":4.7
+        },
+        {
+            "id":11,
+            "name":"Cocktail Leg Rings",
+            "description":"Cocktail leg rings are small, color-coded bands used to identify and track individual birds in aviaries or breeding programs.",
+            "image":"/uploads/images/CocktailLegRings.jpeg",
+            "originalPrice":"₹30.00",
+            "price":"₹25.00",
+            "quantity":10,
+            "inStock":true,
+            "rating":4.7
+        }
+    ]
+}

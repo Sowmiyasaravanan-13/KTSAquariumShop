@@ -1,0 +1,72 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "name": "Imported Tank 2.5 Feet",
+        "description": "Its a 2.5 Feet Imported Tank.",
+        "image": "/uploads/images/2.5FeetImportedTank.jpeg",
+        "originalPrice":"16,000.00",
+        "price": "15,500.00",
+        "quantity":10,
+        "inStock":true,
+        "rating": 4.8
+      },
+      {
+        "id": 2,
+        "name": "Imported Tank 2 Feet",
+        "description": "A sleek, durable tank made with high-quality glass, perfect for any aquatic setup. ",
+        "image": "/uploads/images/2FeetImportedTank.jpeg",
+        "originalPrice":"9,500.00",
+        "price": "8,500.00",
+        "quantity":10,
+        "inStock":true,
+        "rating": 4.7
+      },
+      {
+        "id": 3,
+        "name": "Imported Tank 3 Feet",
+        "description": "A spacious, high-quality glass tank designed for diverse aquatic setups, combining durability and style.",
+        "image": "/uploads/images/3FeetImportedTank.jpeg",
+        "originalPrice":"15,000.00",
+        "price": "12,000.00",
+        "quantity":10,
+        "inStock":true,
+        "rating": 4.9
+      },
+      {
+        "id": 4,
+        "name": "Imported Tank 3.5 Feet",
+        "description": "A large, high-quality glass tank ideal for creating stunning aquatic environments, perfect for both freshwater and saltwater setups.",
+        "image": "/uploads/images/3.5FeetImportedTank.jpeg",
+        "originalPrice":"18,000.00",
+        "price": "15,000.00",
+        "quantity":10,
+        "inStock":true,
+        "rating": 4.6
+      },
+      {
+        "id": 5,
+        "name": "Imported Tank 4 Feet",
+        "description": "A spacious, premium-quality glass tank designed for expansive aquatic displays, suitable for diverse fish species.",
+        "image": "/uploads/images/4FeetImportedTank.jpeg",
+        "originalPrice":"20,000.00",
+        "price": "18,500.00",
+        "quantity":10,
+        "inStock":true,
+        "rating": 4.7
+      },
+      {
+        "id": 6,
+        "name": "Imported Tank 5 Feet",
+        "description": "An extra-large, high-quality glass tank perfect for creating a vibrant, expansive aquatic habitat, ideal for advanced setups.",
+        "image": "/uploads/images/5FeetImportedTank.jpeg",
+        "originalPrice":"25,000.00",
+        "price": "22,000.00",
+        "quantity":10,
+        "inStock":true,
+        "rating": 4.5
+      }
+      
+    ]
+  }
+  

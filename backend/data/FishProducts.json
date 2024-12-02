@@ -1,0 +1,979 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "ALBINO SUCKER CAT FISH",
+      "image": "/uploads/images/AlbinoSuckerCatFish.jpeg",
+      "price": "₹35.00-₹45.00",
+      "variety":"Albino Fish",
+      "rating": 4.5
+    },
+    {
+      "id": 2,
+      "name": "OHM FIGHTER FISH",
+      "image": "/uploads/images/OHMFighterFish.jpeg",
+      "price": "₹70.00-₹85.00",
+      "variety":"Betta Fish",
+      "rating": 4.0
+    },
+    {
+      "id": 3,
+      "name": "FIRE MOUTH",
+      "image": "/uploads/images/FireMouth.jpeg",
+      "price": "₹135.00-₹145.00",
+      "variety":"Chichlids",
+      "rating": 4.3
+    },
+    {
+      "id": 4,
+      "name": "BLACK KOI FISH",
+      "image": "/uploads/images/BlackKoiFish.jpeg",
+      "price": "₹200.00-₹300.00",
+      "variety":"Koi Fish",
+      "rating": 4.7
+    },
+    {
+      "id": 5,
+      "name": "PUFFER FISH BIG",
+      "image": "/uploads/images/PufferFishBig.jpeg",
+      "price": "₹40.00-₹60.00",
+      "variety":"Puffer Fish",
+      "rating": 4.2
+    },
+    {
+      "id": 6,
+      "name": "PUFFER FISH SMALL",
+      "image": "/uploads/images/PufferFishSmall.jpeg",
+      "price": "₹25.00-₹35.00",
+      "variety":"Puffer Fish",
+      "rating": 4.8
+    },
+    {
+      "id": 7,
+      "name": "PEARL GOURAMI FISH MALE",
+      "image": "/uploads/images/PearlGouramifishMale.jpeg",
+      "price": "₹145.00-₹160.00",
+      "variety":"Gourami Fish",
+      "rating": 4.6
+    },
+    {
+      "id": 8,
+      "name": "ALBINO RAINBOW SHARK FISH",
+      
+      "image": "/uploads/images/AlbinoRainbowSharkFish.jpeg",
+      "price": "₹55.00-₹65.00",
+      "variety":"Albino Fish",
+      "rating": 4.4
+    },
+    {
+      "id": 9,
+      "name": "TIGER SHARK FISH",
+      "image": "/uploads/images/TigerSharkFish.jpeg",
+      "price": "₹140.00-₹160.00",
+      "variety":"Shark Fish",
+      "rating": 4.1
+    },
+    {
+      "id": 10,
+      "name": "RAINBOW SHARK FISH",
+      "image": "/uploads/images/RainbowSharkFish.jpeg",
+      "price": "₹70.00-₹80.00",
+      "variety":"Shark Fish",
+      "rating": 4.9
+    },
+    {
+      "id": 11,
+      "name": "KISSING GOURAMI FISH",
+      "image": "/uploads/images/KissingGouramiFish.jpeg",
+      "price": "₹75.00-₹85.00",
+      "variety":"Gourami Fish",
+      "rating": 4.0
+    },
+    {
+      "id": 12,
+      "name": "GUPPY FISH FEMALE",
+      "image": "/uploads/images/GuppyFishFemale.jpeg",
+      "price": "₹15.00-₹25.00",
+      "variety":"Guppy",
+      "rating": 4.2
+    },
+    {
+      "id": 13,
+      "name": "GUPPY FISH MALE",
+      "image": "/uploads/images/GuppyFishMale.jpeg",
+      "price": "₹75.00-₹85.00",
+      "variety":"Guppy",
+      "rating": 4.1
+    },
+    {
+      "id": 14,
+      "name": "ANGEL FISH",
+      "image": "/uploads/images/AngelFish.jpeg",
+      "price": "₹75.00-₹85.00",
+      "variety":"Angel Fish",
+      "rating": 4.2
+    },
+    {
+      "id": 15,
+      "name": "GREEN BLUE ZEBRA FISH",
+      "image": "/uploads/images/GreenZeebraFish.jpeg",
+      "price": "₹15.00-₹25.00",
+      "variety":"Zebra Fish",
+      "rating": 4.5
+    },
+    {
+      "id":16,
+      "name":"PINK ZEEBRA FISH",
+      "image":"/uploads/images/PinkZeebraFish.jpeg",
+      "price":"₹10.00-₹20.00",
+      "variety":"Zebra Fish",
+      "rating":4.0
+    },
+    {
+      "id":17,
+      "name":"TIGER BARB FISH",
+      "image":"/uploads/images/TigerBarbFish.jpeg",
+      "price":"₹30.00-₹40.00",
+      "variety":"Tiger Barb",
+      "rating":3.9
+    },
+    {
+      "id":18,
+      "name":"RED & WHITE KOI FISH",
+      "image":"/uploads/images/RedandWhiteKoiFish.jpeg",
+      "price":"₹100.00-₹200.00",
+      "variety":"Koi Fish",
+      "rating":4.0
+    },
+    {
+      "id":19,
+      "name":"RED CAP FISH",
+      "image":"/uploads/images/RedCapFish.jpeg",
+      "price":"₹75.00-₹85.00",
+      "variety":"Oranda Fish",
+      "rating":4.2
+    },
+    {
+      "id":20,
+      "name":"ORANDA BIG FISH",
+      "image":"/uploads/images/OrandaBigFish.jpeg",
+      "price":"₹75.00-₹85.00",
+      "variety":"Oranda Fish",
+      "rating":4.3
+    },
+    {
+      "id":21,
+      "name":"ORANDA MEDIUM FISH",
+      "image":"/uploads/images/OrandaMediumFish.jpeg",
+      "price":"₹65.00-₹75.00",
+      "variety":"Oranda Fish",
+      "rating":4.3
+    },
+    {
+      "id":22,
+      "name":"SK GOLD FISH SMALL",
+      "image":"/uploads/images/SKGoldFishSmall.jpeg",
+      "price":"₹20.00-₹30.00",
+      "variety":"Goldfish",
+      "rating":3.9
+    },
+    {
+      "id":23,
+      "name":"GOLD FISH BIG",
+      "image":"/uploads/images/GoldFishBig.jpeg",
+      "price":"₹75.00-₹85.00",
+      "variety":"Goldfish",
+      "rating":4.0
+    },
+    {
+      "id":24,
+      "name":"GOLD FISH MEDIUM",
+      "image":"/uploads/images/GoldFishMedium.jpeg",
+      "price":"₹35.00-₹45.00",
+      "variety":"Goldfish",
+      "rating":3.8
+    },
+    {
+      "id":25,
+      "name":"GOLD FISH SMALL",
+      "image":"/uploads/images/GoldFishSmall.jpeg",
+      "price":"₹15.00-₹25.00",
+      "variety":"Goldfish",
+      "rating":4.5
+    },
+    {
+      "id":26,
+      "name":"DUMBO EAR REDTAIL FISH",
+      "image":"/uploads/images/DumboEarRedTailFish.jpeg",
+      "price":"₹75.00-₹85.00",
+      "variety":"Betta Fish",
+      "rating":4.1
+    },
+    {
+      "id":27,
+      "name":"BLUE NEON GUPPY FISH",
+      "image":"/uploads/images/BlueNeonGuppyFish.jpeg",
+      "price":"₹35.00-₹45.00",
+      "variety":"Guppy",
+      "rating":3.0
+    },
+    {
+      "id":28,
+      "name":"RED DIAMOND GUPPY FISH",
+      "image":"/uploads/images/RedDiamondGuppyFish.jpeg",
+      "price":"₹35.00-₹45.00",
+      "variety":"Guppy",
+      "rating":3.5
+    },
+    {
+      "id":29,
+      "name":"AROWANA FISH",
+      "image":"/uploads/images/ArowanaFish.jpeg",
+      "price":"₹1500.00-₹2500.00",
+      "variety":"Arowana",
+      "rating":4.3
+    },
+    {
+      "id":30,
+      "name":"OSCAR MIX FISH",
+      "image":"/uploads/images/OscarMixFish.jpeg",
+      "price":"₹225.00-₹240.00",
+      "variety":"All",
+      "rating":3.8
+    },
+    {
+      "id":31,
+      "name":"ALBINO SENEGAL FISH",
+      "image":"/uploads/images/AlbinoSenegalFish.jpeg",
+      "price":"₹225.00-₹230.00",
+      "variety":"Albino Fish",
+      "rating":4.4
+    },
+    {
+      "id":32,
+      "name":"RED PARROT FISH",
+      "image":"/uploads/images/RedParrotFish.jpeg",
+      "price":"₹325.00-₹360.00",
+      "variety":"Parrot Fish",
+      "rating":4.2
+    },
+    {
+      "id":33,
+      "name":"BLACK GHOST FISH",
+      "image":"/uploads/images/BlackGhostFish.jpeg",
+      "price":"₹120.00-₹130.00",
+      "variety":"Black Ghost Fish",
+      "rating":4.2
+    },
+    {
+      "id":34,
+      "name":"GOLDEN YELLOW BACK LIN FISH",
+      "image":"/uploads/images/GoldenYellowBackLinFish.jpeg",
+      "price":"₹50.00-₹60.00",
+      "variety":"Goldfish",
+      "rating":4.0
+    },
+    {
+      "id":35,
+      "name":"BLACK SHRIMP FISH",
+      "image":"/uploads/images/BlackShrimpFish.jpeg",
+      "price":"₹50.00-₹60.00",
+      "variety":"Shrimp Fish",
+      "rating":4.5
+    },
+    {
+      "id":36,
+      "name":"DREAM BLUE SHRIMP FISH",
+      "image":"/uploads/images/DreamBlueShrimpFish.jpeg",
+      "price":"₹50.00-₹60.00",
+      "variety":"Shrimp Fish",
+      "rating":4.0
+    },
+    {
+      "id":37,
+      "name":"ORANGE SHRIMP FISH",
+      "image":"/uploads/images/OrangeShrimpFish.jpeg",
+      "price":"₹50.00-₹60.00",
+      "variety":"Shrimp Fish",
+      "rating":3.5
+    },
+    {
+      "id":38,
+      "name":"YELLOW SHRIMP FISH",
+      "image":"/uploads/images/YellowShrimpFish.jpeg",
+      "price":"₹45.00-₹55.00",
+      "variety":"Shrimp Fish",
+      "rating":4.4
+    },
+    {
+      "id":39,
+      "name":"FIRE RED SHRIMP FISH",
+      "image":"/uploads/images/FireRedShrimpFish.jpeg",
+      "price":"₹40.00-₹50.00",
+      "variety":"Shrimp Fish",
+      "rating":4.2
+    },
+    {
+      "id":40,
+      "name":"GAE SAE FISH",
+      "image":"/uploads/images/GaeSaeFish.jpeg",
+      "price":"₹40.00-₹60.00",
+      "rating":3.8
+    },
+    {
+      "id":41,
+      "name":"PURPLE WIDOW FISH",
+      "image":"/uploads/images/PurpleWidowFish.jpeg",
+      "price":"₹55.00 - ₹65.00",
+      "variety":"Widow Fish",
+      "rating":4.4
+    },
+    {
+      "id":42,
+      "name":"PINK WINDOW FISH",
+      "image":"/uploads/images/PinkWidowFish.jpeg",
+      "price":"₹55.00 - ₹65.00",
+      "variety":"Widow Fish",
+      "rating":4.2
+    },
+    {
+      "id":43,
+      "name":"BLUE WIDOW FISH",
+      "image":"/uploads/images/BlueWidowFish.jpeg",
+      "price":"₹45.00 - ₹55.00",
+      "variety":"Widow Fish",
+      "rating":4.0
+    },
+    {
+      "id":44,
+      "name":"ORANGE WIDOW FISH",
+      "image":"/uploads/images/OrangeWidowFish.jpeg",
+      "price":"₹55.00 - ₹65.00",
+      "variety":"Widow Fish",
+      "rating":4.0
+    },
+    {
+      "id":45,
+      "name":"YELLOW WIDOW FISH BIG",
+      "image":"/uploads/images/YellowWidowFishBig.jpeg",
+      "price":"₹375.00 - ₹395.00",
+      "variety":"Widow Fish",
+      "rating":3.0
+    },
+    {
+      "id":46,
+      "name":"GREEN WIDOW FISH",
+      "image":"/uploads/images/GreenWidowFish.jpeg",
+      "price":"₹45.00 - ₹55.00",
+      "variety":"Widow Fish",
+      "rating":4.3
+    },
+    {
+      "id":47,
+      "name":"PANDA GOLD FISH",
+      "image":"/uploads/images/PandaGoldFish.jpeg",
+      "price":"₹45.00 - ₹55.00",
+      "variety":"Goldfish",
+      "rating":4.5
+    },
+    {
+      "id":48,
+      "name":"TAIWAN REEF FISH",
+      "image":"/uploads/images/TaiwanReefFish.jpeg",
+      "price":"₹290.00 - ₹320.00",
+      "variety":"Taiwan Reef",
+      "rating":3.9
+    },
+    {
+      "id":49,
+      "name":"PETRO CHITHIMBA FISH",
+      "image":"/uploads/images/PetroChithimbaFish.jpeg",
+      "price":"₹190.00 - ₹220.00",
+      "variety":"Petro Chithimba",
+      "rating":3.8
+    },
+    {
+      "id":50,
+      "name":"WHITE MORPH FISH",
+      "image":"/uploads/images/WhiteMorphFish.jpeg",
+      "price":"₹220.00 - ₹270.00",
+      "variety":"Morph Fish",
+      "rating":4.6
+    },
+    {
+      "id":51,
+      "name":"RED PEACOCK FISH",
+      "image":"/uploads/images/RedPeacockFish.jpeg",
+      "price":"₹70.00 - ₹90.00",
+      "variety":"Peacock Fish",
+      "rating":4.2
+    },
+    {
+      "id":52,
+      "name":"ELECTRIC BLUE PEACOCK FISH",
+      "image":"/uploads/images/ElectricBluePeacockFish.jpeg",
+      "price":"₹70.00 - ₹90.00",
+      "variety":"Peacock Fish",
+      "rating":4.2
+    },
+    {
+      "id":53,
+      "name":"YELLOW PEACOCK FISH",
+      "image":"/uploads/images/YellowPeacockFish.jpeg",
+      "price":"₹70.00 - ₹90.00",
+      "variety":"Peacock Fish",
+      "rating":4.0
+    },
+    {
+      "id":54,
+      "name":"YELLOW MORPH SMALL FISH",
+      "image":"/uploads/images/YellowMorphSmallFish.jpeg",
+      "price":"₹250.00 - ₹270.00",
+      "variety":"Morph Fish",
+      "rating":4.0
+    },
+    {
+      "id":55,
+      "name":"RED PEACOCK(SUNSHINE,STRAWBERRY,EUREKA RED)",
+      "image":"/uploads/images/RedPeacockFishSunshine.jpeg",
+      "price":"₹260.00 - ₹280.00",
+      "variety":"Peacock Fish",
+      "rating":4.0
+    },
+    {
+      "id":56,
+      "name":"RED HORSE FACE FISH",
+      "description":"The Red Horse Face Fish is a colorful cichlid with a unique face, reaching 8-12 inches.",
+      "image":"/uploads/images/RedHorseFaceFish.jpeg",
+      "price":35.00,
+      "rating":4.0
+    },
+    {
+      "id":57,
+      "name":"ALBINO DOLPHINE FISH",
+      "image":"/uploads/images/AlbinoDolphineFish.jpeg",
+      "price":"₹670.00 - ₹690.00",
+      "variety":"Albino Fish",
+      "rating":4.3
+    },
+    {
+      "id":58,
+      "name":"ICE BLUE FISH",
+      "image":"/uploads/images/IceBlueFish.jpeg",
+      "price":"₹190.00 - ₹220.00",
+      "variety":"Chichlids",
+      "rating":4.3
+    },
+    {
+      "id":59,
+      "name":"BLUE JOHANNE FISH",
+      "image":"/uploads/images/BlueJohanneFish.jpeg",
+      "price":"₹230.00 - ₹260.00",
+      "variety":"Chichlids",
+      "rating":4.4
+    },
+    {
+      "id":60,
+      "name":"RED IMPRESS FISH",
+      "image":"/uploads/images/RedImpressFish.jpeg",
+      "price":"₹290.00 - ₹310.00",
+      "variety":"Chichlids",
+      "rating":4.7
+    },
+    {
+      "id":61,
+      "name":"ALBINO DOLPHINE FISH SMALL",
+      "image":"/uploads/images/AlphinoDolphineFishSmall.jpeg",
+      "price":"₹190.00 - ₹220.00",
+      "variety":"Albino Fish",
+      "rating":4.5
+    },
+    {
+      "id":62,
+      "name":"ALBINO DOLPHINE FISH MEDIUM",
+      "image":"/uploads/images/AlbinoDolphineFishMedium.jpeg",
+      "price":"₹190.00 - ₹220.00",
+      "variety":"Albino Fish",
+      "rating":4.0
+    },
+    {
+      "id":63,
+      "name":"LOBSTER FISH",
+      "image":"/uploads/images/LobsterFish.jpeg",
+      "price":"₹140.00 - ₹160.00",
+      "variety":"Chichlids",
+      "rating":4.1
+    },
+    {
+      "id":64,
+      "name":"YELLOW MORPH BIG FISH",
+      "image":"/uploads/images/YellowMorphFishBig.jpeg",
+      "price":"₹290.00 - ₹320.00",
+      "variety":"Morph Fish",
+      "rating":3.5
+    },
+    {
+      "id":65,
+      "name":"ROTESTER BIG FISH",
+      "image":"/uploads/images/RotesterFishBig.jpeg",
+      "price":"₹1450.00 - ₹1550.00",
+      "variety":"Chichlids",
+      "rating":4.4
+    },
+    {
+      "id":66,
+      "name":"ELECTRIC BLUE FISH BIG",
+      "image":"/uploads/images/ElectricBlueFishBig.jpeg",
+      "price":"₹360.00 - ₹380.00",
+      "variety":"Chichlids",
+      "rating":3.8
+    },
+    {
+      "id":67,
+      "name":"SNOW WHITE FISH BIG",
+      "image":"/uploads/images/SnowWhiteFishBig.jpeg",
+      "price":"₹260.00 - ₹280.00",
+      "variety":"Chichlids",
+      "rating":3.5
+    },
+    {
+      "id":68,
+      "name":"BI COLOR PEACOCK FISH",
+      "image":"/uploads/images/BIColorPeacockFish.jpeg",
+      "price":"₹240.00 - ₹260.00",
+      "variety":"Peacock Fish",
+      "rating":3.8
+    },
+    {
+      "id":69,
+      "name":"VENUS CHICHLID FISH",
+      "image":"/uploads/images/VenusChichlidFish.jpeg",
+      "price":70.00,
+      "variety":"Chichlids",
+      "rating":4.2
+    },
+    {
+      "id":70,
+      "name":"RED CODANGO FISH BIG",
+      "image":"/uploads/images/RedCodangoFishBig.jpeg",
+      "price":100.00,
+      "rating":3.8
+    },
+    {
+      "id":71,
+      "name":"ALBINO PEACOCK FISH",
+      "description":"The Albino Peacock Fish is a cichlid with a bright albino coloration and vibrant hues.",
+      "image":"/uploads/images/AlbinoPeacockFish.jpeg",
+      "price":60.00,
+      "rating":3.9
+    },
+    {
+      "id":72,
+      "name":"RED CODANGO FISH SMALL",
+      "description":"The Red Codango Fish is a small cichlid with vivid red coloration and distinctive patterns.",
+      "image":"/uploads/images/RedCodangoFishSmall.jpeg",
+      "price":50.00,
+      "rating":4.3
+    },
+    {
+      "id":73,
+      "name":"MOLLY FISH",
+      "description":"The Molly Fish is a small, hardy freshwater fish available in various colors and patterns.",
+      "image":"/uploads/images/MollyFish.jpeg",
+      "price":10.00,
+      "rating":3.8
+    },
+    {
+      "id":74,
+      "name":"YELLOW ZEBRA FISH",
+      "description":"The Yellow Zebra Fish is a striking cichlid with bright yellow and black stripes.",
+      "image":"/uploads/images/YellowZebraFish.jpeg",
+      "price":40.00,
+      "rating":4.2
+    },
+    {
+      "id":75,
+      "name":"OHM FIGHTER FISH SMALL",
+      "description":"The Ohm Fighter Fish is a small, vibrant fish known for its intense colors and fin displays.",
+      "image":"/uploads/images/OHMFighterFishSmall.jpeg",
+      "price":20.00,
+      "rating":3.9
+    },
+    {
+      "id":76,
+      "name":"ALIGATOR GHAR FISH",
+      "description":"The Alligator Gar Fish is a large, prehistoric-looking fish with a long, alligator-like snout.",
+      "image":"/uploads/images/AligatorGharFish.jpeg",
+      "price":175.00,
+      "rating":4.2
+    },
+    {
+      "id":77,
+      "name":"YELLOW PARROT FISH",
+      "description":"The Yellow Parrot Fish is a vibrant cichlid with a distinctive parrot-like beak and bright yellow coloration.",
+      "image":"/uploads/images/YellowParrotFish.jpeg",
+      "price":50.00,
+      "rating":3.8
+    },
+    {
+      "id":78,
+      "name":"RED SWORD FISH",
+      "description":"The Red Sword Fish is a striking fish with a bright red body and sword-like tail fin.",
+      "image":"/uploads/images/RedSwordFish.jpeg",
+      "price":30.00,
+      "rating":3.8
+    },
+    {
+      "id":79,
+      "name":"SHRIMP COLOR MIXED ALL FISH",
+      "description":"Shrimp Color Mixed All Fish refers to a variety of colorful fish that come in assorted shrimp-like hues.",
+      "image":"/uploads/images/ShrimpColorMixedAllFish.jpeg",
+      "price":30.00,
+      "rating":3.0
+    },
+    {
+      "id":80,
+      "name":"SPA FISH",
+      "description":"Spa Fish are decorative fish known for their calming presence and vibrant colors, often used in aquariums for relaxation settings.",
+      "image":"/uploads/images/SpaFish.jpeg",
+      "price":40.00,
+      "rating":3.5
+    },
+    {
+      "id":81,
+      "name":"SNAIL FISH",
+      "description":"The Snail Fish is a unique fish with a snail-like appearance and a distinctive shell-like structure.",
+      "image":"/uploads/images/SnailFish.jpeg",
+      "price":30.00,
+      "rating":4.1
+    },
+    {
+      "id":82,
+      "name":"GARA RUFA FISH",
+      "description":"The Gara Rufa, also known as the Doctor Fish, is known for its ability to gently nibble away dead skin, often used in spa treatments.",
+      "image":"/uploads/images/GaraRufaFish.jpeg",
+      "price":15.00,
+      "rating":4.7
+    },
+    {
+      "id":83,
+      "name":"JUMBO COLOR WIDOW",
+      "description":"The Jumbo Color Widow is a large, vibrant cichlid with a striking array of bright colors.",
+      "image":"/uploads/images/JumboColorWidow.jpeg",
+      "price":90.00,
+      "rating":3.6
+    },
+    {
+      "id":84,
+      "name":"BLACK MOORE",
+      "description":"The Black Moore is a goldfish variety with a distinctive deep black coloration and prominent, bulging eyes.",
+      "image":"/uploads/images/BlackMooreFish.jpeg",
+      "price":30.00,
+      "rating":4.8
+    },
+    {
+      "id":85,
+      "name":"GREEN TIGER BARB BIG",
+      "description":"The Green Tiger Barb is a lively freshwater fish with striking green and black tiger stripes.",
+      "image":"/uploads/images/GreenTigerBarbFishBig.jpeg",
+      "price":15.00,
+      "rating":4.0
+    },
+    {
+      "id":86,
+      "name":"ROSY BARB",
+      "description":"The Rosy Barb is a colorful freshwater fish with a rosy-pink body and silver highlights.",
+      "image":"/uploads/images/RosyBarbFish.jpeg",
+      "price":10.00,
+      "rating":3.8
+    },
+    {
+      "id":87,
+      "name":"ALBINO TIGER SHARK",
+      "description":"The Albino Tiger Shark is a rare and striking white or light pink shark, growing up to 10-14 feet, found in warm tropical waters.",
+      "image":"/uploads/images/AlbinoTigerShark.jpeg",
+      "price":15000.00,
+      "rating":4.2
+    },
+    {
+      "id":88,
+      "name":"GOLD KOI FISH",
+      "description":"The Gold Koi Fish is a beautiful and vibrant ornamental fish, known for its striking golden color and graceful swimming, typically kept in ponds and aquariums.",
+      "image":"/uploads/images/GoldKoiFish.jpeg",
+      "price":150.00,
+      "rating":4.0
+    },
+    {
+      "id":89,
+      "name":"GREEN FISHER",
+      "description":"The Green Fisher is a unique and vibrant fish, known for its striking green coloration and active behavior, making it a popular choice for aquariums.",
+      "image":"/uploads/images/GreenFisher.jpeg",
+      "price":100.50,
+      "rating":4.2
+    },
+    {
+      "id":90,
+      "name":"WHITE MALE GUPPY",
+      "description":"White Male Guppy Fish",
+      "image":"/uploads/images/WhiteMaleGuppyFish.jpeg",
+      "price":200.00,
+      "rating":3.5
+    },
+    {
+      "id":91,
+      "name":"BALOON MOLLY FISH",
+      "description":"The Balloon Molly Fish is a unique and attractive fish known for its rounded belly and peaceful nature. Perfect for community tanks.",
+      "image":"/uploads/images/BaloonMollyFish.jpeg",
+      "price": 8.9,
+      "rating":4.2
+    },
+    {
+      "id":92,
+      "name":"SK GOLD MEDIUM",
+      "description":"The SK Gold Medium Fish is a premium food that boosts color and vitality for medium-sized fish.",
+      "image":"/uploads/images/SKGoldMediumFish.jpeg",
+      "price":15.30,
+      "rating":4.6
+    },
+    {
+      "id":93,
+      "name":"KOI CARP FISH",
+      "description":"Koi Carp Fish are vibrant, ornamental fish known for their striking colors and patterns, commonly kept in garden ponds.",
+      "image":"/uploads/images/KoiCarpFish.jpeg",
+      "price":150.00,
+      "rating":4.2
+    },
+    {
+      "id":94,
+      "name":"FULL MOON FIGHTER",
+      "description":"A Betta fish with striking, round fins and vibrant colors, known for its impressive appearance and resilience.",
+      "image":"/uploads/images/FullMoonFighter.jpeg",
+      "price":25.00,
+      "rating":3.6
+    },
+    {
+      "id":95,
+      "name":"MICKY MOUSE PLATY",
+      "description":"A vibrant platy fish with distinctive spots resembling Mickey Mouse on its tail, adding a playful touch to any aquarium.",
+      "image":"/uploads/images/MickyMousePlaty.jpeg",
+      "price":15.00,
+      "rating":3.6
+    },
+    {
+      "id":96,
+      "name":"GLASS WIDOW COLOR",
+      "description":"A transparent and color-enhanced variety of the Glass Catfish, known for its striking, vivid hues and elegant swimming style.",
+      "image":"/uploads/images/GlassWidowColorFish.jpeg",
+      "price":10.00,
+      "rating":3.9
+    },
+    {
+      "id":97,
+      "name":"GREEN TIGER BARB SMALL",
+      "description":"A vibrant and active fish with striking green and black stripes, known for its lively and schooling behavior.",
+      "image":"/uploads/images/GreenTigerBarbSmallFish.jpeg",
+      "price":10.00,
+      "rating":3.8
+    },
+    {
+      "id":98,
+      "name":"CHICHLET VARIETY",
+      "description":"A diverse group of cichlid fish known for their bold colors and territorial nature, popular in both freshwater aquariums and outdoor ponds.",
+      "image":"/uploads/images/ChichletVarietyFish.jpeg",
+      "price":25.00,
+      "rating":3.9
+    },
+    {
+      "id":99,
+      "name":"SPOTTED CAT FISH",
+      "description":"A distinctive freshwater catfish species with a unique spotted pattern, known for its peaceful nature and bottom-dwelling behavior.",
+      "image":"/uploads/images/SpottedCatFish.jpeg",
+      "price":30.00,
+      "rating":4.3
+    },
+    {
+      "id":100,
+      "name":"SILVER DOLLAR FISH",
+      "description":"A freshwater fish with a shiny, silver, disc-shaped body and a peaceful, schooling nature.",
+      "image":"/uploads/images/SilverDollarFish.jpeg",
+      "price":20.00,
+      "rating":4.2
+    },
+    {
+      "id":101,
+      "name":"AROWANA BABY FISH",
+      "description":"A young, exotic fish with a streamlined body and metallic sheen, known for its impressive growth potential and unique swimming style.",
+      "image":"/uploads/images/ArowanaBabyFish.jpeg",
+      "price":100.00,
+      "rating":4.3
+    },
+    {
+      "id":102,
+      "name":"JELLY FISH SMALL",
+      "description":"A small, vibrant jellyfish with a mesmerizing, translucent appearance, ideal for creating a captivating aquatic display.",
+      "image":"/uploads/images/JellyFishSmall.jpeg",
+      "price":70.00,
+      "rating":4.3
+    },
+    {
+      "id":103,
+      "name":"RUMMY NOSE",
+      "description":"A striking freshwater fish with a bright red nose and distinctive black markings, known for its schooling behavior and vivid colors.",
+      "image":"/uploads/images/RummyNoseFish.jpeg",
+      "price":10.00,
+      "rating":3.8
+    },
+    {
+      "id":104,
+      "name":"DWARF GOURAMI FISH",
+      "description":"A small, vibrant freshwater fish with a peaceful temperament, featuring bright colors and delicate fins, ideal for community tanks.",
+      "image":"/uploads/images/DwarfGouramiFish.jpeg",
+      "price":10.00,
+      "rating":4.0
+    },
+    {
+      "id":105,
+      "name":"NEON RED COLISA",
+      "description":"A striking freshwater fish with brilliant red and blue hues, known for its vibrant color and peaceful nature, perfect for adding a splash of color to aquariums.",
+      "image":"/uploads/images/RedColisaFish.jpeg",
+      "price":15.00,
+      "rating":4.3
+    },
+    {
+      "id":106,
+      "name":"NEMO CANDY FISH",
+      "description":"A vibrant and colorful freshwater fish with a striking orange and white pattern, resembling the popular clownfish.",
+      "image":"/uploads/images/NemoCandyFish.jpeg",
+      "price":10.00,
+      "rating":4.2
+    },
+    {
+      "id":107,
+      "name":"KOI MIX",
+      "description":"A selection of mixed Koi fish featuring various vibrant colors and patterns, ideal for enhancing the beauty of koi ponds.",
+      "image":"/uploads/images/KoiMixFish.jpeg",
+      "price":50.00,
+      "rating":3.5
+    },
+    {
+      "id":108,
+      "name":"CLOWN KILLI FISH",
+      "description":"Small, vibrant fish with striking patterns and colors, known for their lively behavior and suitability for community aquariums.",
+      "image":"/uploads/images/ClownKilliFish.jpeg",
+      "price":15.00,
+      "rating":4.2
+    },
+    {
+      "id":109,
+      "name":"CARDINAL RED SMALL",
+      "description":"Brilliantly colored small fish with vibrant red hues, ideal for adding a splash of color to any aquarium.",
+      "image":"/uploads/images/CardinalRedSmallFish.jpeg",
+      "price":20.00,
+      "rating":4.1
+    },
+    {
+      "id":110,
+      "name":"MWC KOI FISH",
+      "description":"High-quality Koi fish with distinct, colorful patterns and a striking appearance, perfect for enhancing any pond or aquarium.",
+      "image":"/uploads/images/MWCKoiFish.jpeg",
+      "price":100.00,
+      "rating":4.2
+    },
+    {
+      "id":111,
+      "name":"FEMALE MOLLY",
+      "description":"Hardy and adaptable freshwater fish with a calm demeanor, ideal for community tanks; known for their vibrant colors and peaceful nature.",
+      "image":"/uploads/images/FemaleMollyFish.jpeg",
+      "price":10.00,
+      "rating":3.5
+    },
+    {
+      "id":112,
+      "name":"BETTA FLAKART FISH",
+      "description":"Striking freshwater fish known for their vivid colors and flowing fins, ideal for individual or community tanks with appropriate companions.",
+      "image":"/uploads/images/BettaPlakatFish.jpeg",
+      "price":15.00,
+      "rating":3.8
+    },
+    {
+      "id":113,
+      "name":"NEW ANGEL FISH",
+      "description":"Elegant freshwater fish with a distinctive triangular shape and long, graceful fins, adding beauty and grace to any aquarium.",
+      "image":"/uploads/images/NewAngelFish.jpeg",
+      "price":15.00,
+      "rating":3.9
+    },
+    {
+      "id":114,
+      "name":"SEA ANGEL FISH",
+      "description":"Delicate, translucent fish with wing-like fins that resemble angel wings, adding elegance to marine aquariums.",
+      "image":"/uploads/images/SeaAngelFish.jpeg",
+      "price":30.00,
+      "rating":3.8
+    },
+    {
+      "id":115,
+      "name":"FRONTASA FISH",
+      "description":"Known for its vibrant colors and striking appearance, the Frontasa Fish adds a unique touch to any aquarium.",
+      "image":"/uploads/images/FrontasaFish.jpeg",
+      "price":50.00,
+      "rating":4.2
+    },
+    {
+      "id":116,
+      "name":"YELLOW PANCHER FISH",
+      "description":"A brightly colored fish with a striking yellow hue, ideal for adding a vibrant splash to your aquarium.",
+      "image":"/uploads/images/YellowPuncherFish.jpeg",
+      "price":15.00,
+      "rating":4.4
+    },
+    {
+      "id":117,
+      "name":"GAINT GOURAMI FISH",
+      "description":"A large, robust fish with a distinctive appearance and impressive size, perfect for large aquariums.",
+      "image":"/uploads/GaintGouramiFish.jpeg",
+      "price":100.00,
+      "rating":4.2
+    },
+    {
+      "id":118,
+      "name":"RED OSCAR IMPORTED FISH",
+      "description":"Vibrant and hardy fish with striking red coloration, ideal for large community tanks.",
+      "image":"/uploads/images/RedOscarImportedFish.jpeg",
+      "price":70.00,
+      "rating":3.8
+    },
+    {
+      "id":119,
+      "name":"CLOWN LOACH FISH",
+      "description":"Brightly colored fish with distinctive bands and playful behavior, great for adding charm to your aquarium.",
+      "image":"/uploads/images/ClownLoachFish.jpeg",
+      "price":15.00,
+      "rating":4.3
+    },
+    {
+      "id":120,
+      "name":"RED BLUE LOBSTER FISH",
+      "description":"Vibrant lobster-shaped fish with striking red and blue coloration, adding a bold touch to your tank.",
+      "image":"/uploads/images/RedBlueLobsterFish.jpeg",
+      "price":25.00,
+      "rating":4.3
+    },
+    {
+      "id":121,
+      "name":"POLAR PARROT FISH",
+      "description":"Uniquely colored fish with a distinctive parrot-like beak and a bright, polar-themed palette.",
+      "image":"/uploads/images/PolarParrotFish.jpeg",
+      "price":40.00,
+      "rating":4.2
+    },
+    {
+      "id":122,
+      "name":"GT FISH (TURTLE)",
+      "description":"A robust and striking fish, often resembling a turtle with its distinct, patterned shell-like appearance.",
+      "image":"/uploads/images/GTFish(TURTLE).jpeg",
+      "price":50.00,
+      "rating":3.9
+    }
+  ]
+}

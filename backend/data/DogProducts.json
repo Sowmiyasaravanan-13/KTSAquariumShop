@@ -1,0 +1,148 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "name": "Golden Retriever",
+        "description": "A friendly and intelligent dog breed.",
+        "image": "/uploads/images/GoldenRetreiver.jpeg",
+        "originalPrice":"18000.00",
+        "price": "16000.00",
+        "quantity":10,
+        "inStock":true,
+        "rating": 4.8
+      },
+      {
+        "id": 2,
+        "name": "Labrador Retriever",
+        "description": "A popular breed known for its loyalty and friendliness.",
+        "image": "/uploads/images/LabradorRetriever.jpeg",
+        "originalPrice":"60000.00",
+        "price": "12000.00",
+        "quantity":10,
+        "inStock":true,
+        "rating": 4.7
+      },
+      {
+        "id": 3,
+        "name": "German Shepherd",
+        "description": "A versatile breed known for its intelligence and trainability.",
+        "image": "/uploads/images/GermanShepherd.jpeg",
+        "originalPrice":"60,000.00",
+        "price": "18,000.00",
+        "quantity":10,
+        "inStock":true,
+        "rating": 4.9
+      },
+      {
+        "id": 4,
+        "name": "Bulldog",
+        "description": "A medium-sized breed with a distinctive wrinkled face.",
+        "image": "/uploads/images/Bulldog.jpeg",
+        "originalPrice":"60,000.00",
+        "price": "18,000.00",
+        "quantity":10,
+        "inStock":true,
+        "rating": 4.6
+      },
+      {
+        "id": 5,
+        "name": "Rajapalayam",
+        "description": "A breed known for its curly coat and intelligence.",
+        "image": "/uploads/images/Poodle.jpeg",
+        "originalPrice":"60,000.00",
+        "price": "10,000.00",
+        "quantity":10,
+        "inStock":true,
+        "rating": 4.7
+      },
+      {
+        "id": 6,
+        "name": "Beagle",
+        "description": "A small to medium-sized breed with a great sense of smell.",
+        "image": "/uploads/images/Beagle.jpeg",
+        "originalPrice":"60,000.00",
+        "price": "16,000.00",
+        "quantity":10,
+        "inStock":true,
+        "rating": 4.5
+      },
+      {
+        "id": 7,
+        "name": "Rottweiler",
+        "description": "A robust and powerful breed known for its protective nature.",
+        "image": "/uploads/images/Rottweiler.jpeg",
+        "originalPrice":"60,000.00",
+        "price": "15,000.00",
+        "quantity":10,
+        "inStock":true,
+        "rating": 4.8
+      },
+      {
+        "id": 8,
+        "name": "Pomerian",
+        "description": "A medium to large breed known for its playful and energetic personality.",
+        "image": "/uploads/images/Pomerian.jpeg",
+        "originalPrice":"10,000.00",
+        "price": "6,000.00",
+        "quantity":10,
+        "inStock":true,
+        "rating": 4.6
+      },
+      {
+        "id": 9,
+        "name": "Dachshund",
+        "description": "A small breed with a long body and short legs.",
+        "image": "/uploads/images/Dachshund.jpeg",
+        "originalPrice":"60,000.00",
+        "price": "10,000.00",
+        "quantity":10,
+        "inStock":true,
+        "rating": 4.4
+      },
+      {
+        "id": 10,
+        "name": "Shih Tzu",
+        "description": "A toy breed known for its long, flowing coat.",
+        "image": "/uploads/images/ShihTzu.jpeg",
+        "originalPrice":"60,000.00",
+        "price": "16,000.00",
+        "quantity":10,
+        "inStock":true,
+        "rating": 4.7
+      },
+      {
+        "id": 11,
+        "name": "Husky",
+        "description": "A toy breed known for its long, flowing coat.",
+        "image": "/uploads/images/Husky.jpeg",
+        "originalPrice":"60,000.00",
+        "price": "25,000.00",
+        "quantity":10,
+        "inStock":true,
+        "rating": 4.7
+      },
+      {
+        "id": 12,
+        "name": "Chippiparai",
+        "description":"The Chippiparai is a lean and agile Indian sighthound, known for its speed and loyalty.",
+        "image":"/uploads/images/Chippiparai.jpeg",
+        "originalPrice":"15,000.00",
+        "price":"12,000.00",
+        "quantity":10,
+        "inStock":true,
+        "rating":4.4
+      },
+      {
+        "id": 13,
+        "name": "Kanni",
+        "description":"The Kanni dog is an agile and loyal Indian sighthound, known for its speed and hunting abilities.",
+        "image":"/uploads/images/Kanni.jpeg",
+        "originalPrice":"12,000.00",
+        "price":"10,000.00",
+        "quantity":10,
+        "inStock":true,
+        "rating":4.5
+      }
+    ]
+  }
+  

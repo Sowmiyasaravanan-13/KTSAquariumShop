@@ -1,0 +1,114 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "Persian Cat",
+            "description": "A long-haired breed characterized by its round face and short muzzle.",
+            "image": "/uploads/images/PersianCat.jpeg",
+            "originalPrice":"500.00",
+            "price": "450.00",
+            "quantity":10,
+            "inStock":true,
+            "rating": 4.7
+        },
+        {
+            "id": 2,
+            "name": "Siamese Cat",
+            "description": "One of the first distinctly recognized breeds of Asian cat.",
+            "image": "/uploads/images/SiameseCat.jpeg",
+            "originalPrice":"500.00",
+            "price": "400.00",
+            "quantity":10,
+            "inStock":true,
+            "rating": 4.6
+        },
+        {
+            "id": 3,
+            "name": "Maine Coon",
+            "description": "One of the largest domesticated cat breeds, known for its friendly nature.",
+            "image": "/uploads/images/MaineCoon.jpeg",
+            "originalPrice":"550.00",
+            "price": "450.00",
+            "quantity":10,
+            "inStock":true,
+            "rating": 4.8
+        },
+        {
+            "id": 4,
+            "name": "Ragdoll",
+            "description": "A cat breed with a docile and placid temperament.",
+            "image": "/uploads/images/Ragdoll.jpeg",
+            "originalPrice":"550.00",
+            "price": "400.00",
+            "quantity":10,
+            "inStock":true,
+            "rating": 4.9
+        },
+        {
+            "id": 5,
+            "name": "Bengal Cat",
+            "description": "A domesticated cat breed created from hybrids of domestic cats and the Asian leopard cat.",
+            "image": "/uploads/images/BengalCat.jpeg",
+            "originalPrice":"650.00",
+            "price": "500.00",
+            "quantity":10,
+            "inStock":true,
+            "rating": 4.8
+        },
+        {
+            "id": 6,
+            "name": "British Shorthair",
+            "description": "A domesticated cat whose features make it a popular breed in cat shows.",
+            "image": "/uploads/images/BritishShorthair.jpeg",
+            "originalPrice":"500.00",
+            "price": "400.00",
+            "quantity":10,
+            "inStock":true,
+            "rating": 4.5
+        },
+        {
+            "id": 7,
+            "name": "Sphynx Cat",
+            "description": "A breed of cat known for its lack of fur.",
+            "image": "/uploads/images/SphynxCat.jpeg",
+            "originalPrice":"750.00",
+            "price": "650.00",
+            "quantity":10,
+            "inStock":true,
+            "rating": 4.7
+        },
+        {
+            "id": 8,
+            "name": "Scottish Fold",
+            "description": "A breed of cat with a natural dominant-gene mutation that affects cartilage throughout the body.",
+            "image": "/uploads/images/ScottishFold.jpeg",
+            "originalPrice":"700.00",
+            "price": "600.00",
+            "quantity":10,
+            "inStock":true,
+            "rating": 4.6
+        },
+        {
+            "id": 9,
+            "name": "Abyssinian Cat",
+            "description": "One of the oldest known cat breeds, noted for its slender and fine-boned appearance.",
+            "image": "/uploads/images/AbyssinianCat.jpeg",
+            "originalPrice":"650.00",
+            "price": "500.00",
+            "quantity":10,
+            "inStock":true,
+            "rating": 4.5
+        },
+        {
+            "id": 10,
+            "name": "Birman",
+            "description": "A breed of domestic cat with a silky coat, deep blue eyes, and contrasting white 'gloves' on each paw.",
+            "image": "/uploads/images/Birman.jpeg",
+            "originalPrice":"550.00",
+            "price": "450.00",
+            "quantity":10,
+            "inStock":true,
+            "rating": 4.6
+        }
+    ]
+}
