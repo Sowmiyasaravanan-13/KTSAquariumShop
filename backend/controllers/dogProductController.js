@@ -1,4 +1,5 @@
 // controllers/dogProductController.js
+const path = require("path");
 const dogProducts = require(path.join(__dirname, '../data/dogProducts.json'));
 
 exports.getDogProducts = (req, res) => {
