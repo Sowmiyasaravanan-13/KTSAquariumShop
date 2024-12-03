@@ -16,7 +16,9 @@ const app = express();
 connectDatabase();
 
 // Middleware
-app.use(cors());
+app.use(cors({
+    origin: 'http://3.110.194.242:5001' // Replace with your frontend's domain
+  }));
 app.use(express.json());
 app.use(cookieParser());
 

@@ -10,7 +10,7 @@ const LiveDog = () => {
   const { addToWishlist, removeFromWishlist, isInWishlist } = useContext(WishlistContext);
 
   useEffect(() => {
-    fetch('http://localhost:5001/api/v1/livedog')
+    fetch(`${process.env.REACT_APP_BACKEND_URL}/api/v1/livedog`)
       .then(response => {
         if (!response.ok) {
           throw new Error('Network response was not ok');
@@ -52,7 +52,7 @@ const LiveDog = () => {
             <div>
               {product.image ? (
                 <img 
-                  src={`http://localhost:5001${product.image}`} 
+                src={`${process.env.REACT_APP_BACKEND_URL}${product.image}`}  
                   alt={product.name} 
                   className="w-full h-48 object-cover mb-4 rounded" 
                 />
