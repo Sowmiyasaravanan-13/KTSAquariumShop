@@ -1,5 +1,5 @@
 // controllers/dogProductController.js
-const dogProducts = require('../data/DogProducts.json');
+const dogProducts = require(path.join(__dirname, '../data/dogProducts.json'));
 
 exports.getDogProducts = (req, res) => {
   const { page = 1, limit = 12 } = req.query;

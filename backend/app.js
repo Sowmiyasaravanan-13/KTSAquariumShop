@@ -6,14 +6,15 @@ const dotenv = require('dotenv');
 const Razorpay = require('razorpay');
 const errorMiddleware = require('./middlewares/error');
 const connectDatabase = require('./config/database');
+
 // Load environment variables
 dotenv.config({ path: path.join(__dirname, 'config/config.env') });
 
 const app = express();
 
-
 // Call the function to connect to the database
 connectDatabase();
+
 // Middleware
 app.use(cors());
 app.use(express.json());
@@ -50,8 +51,6 @@ app.use('/api/v1/', cataccessoriesRouter);
 app.use('/api/v1/', birdsaccessoriesRouter);
 app.use('/api/v1/', importedtanksRouter);
 
-
-
 // Razorpay Instance
 const razorpayInstance = new Razorpay({
     key_id: process.env.RAZORPAY_KEY_ID,
@@ -87,11 +86,11 @@ if (process.env.NODE_ENV === 'production') {
 // Error Middleware
 app.use(errorMiddleware);
 
-// Uncomment this section to start the server directly
-// const PORT = process.env.PORT || 5001;
-// app.listen(PORT, () => {
-//   console.log(`Server running on port ${PORT}`);
-// });
+// Start the server
+const PORT = process.env.PORT || 5007;
+app.listen(PORT, () => {
+    console.log(`Server running on port ${PORT}`);
+});
 
-// Export the app for server.js or testing
+// Export the app for testing or server.js
 module.exports = app;
