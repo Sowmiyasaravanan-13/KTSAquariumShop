@@ -17,7 +17,7 @@ connectDatabase();
 
 // Middleware
 app.use(cors({
-    origin: 'http://3.110.194.242:5001' // Replace with your frontend's domain
+    origin: 'http://3.110.194.242:5005' // Replace with your frontend's domain
   }));
 app.use(express.json());
 app.use(cookieParser());
@@ -89,7 +89,7 @@ if (process.env.NODE_ENV === 'production') {
 app.use(errorMiddleware);
 
 // Start the server
-const PORT = process.env.PORT || 5001;
+const PORT = process.env.PORT || 8000;
 app.listen(PORT, () => {
     console.log(`Server running on port ${PORT}`);
 });
