@@ -10,7 +10,7 @@ const LiveDog = () => {
   const { addToWishlist, removeFromWishlist, isInWishlist } = useContext(WishlistContext);
 
   useEffect(() => {
-    fetch(`${process.env.REACT_APP_BACKEND_URL}/api/v1/livedog`)
+    fetch(`${process.env.REACT_APP_BACKEND_URL}/api/v1/livedog`) // Hardcoded backend URL
       .then(response => {
         if (!response.ok) {
           throw new Error('Network response was not ok');
@@ -52,7 +52,7 @@ const LiveDog = () => {
             <div>
               {product.image ? (
                 <img 
-                src={`${process.env.REACT_APP_BACKEND_URL}${product.image}`}  
+                  src={`http://3.110.194.242:5001${product.image}`} // Hardcoded backend image URL
                   alt={product.name} 
                   className="w-full h-48 object-cover mb-4 rounded" 
                 />
@@ -60,8 +60,8 @@ const LiveDog = () => {
                 <p>No image available</p>
               )}
               <h2 className="text-xl font-bold mb-2">{product.name}</h2>
-              
-              {/*<span className="text-green-500 font-bold mb-4 block">{product.price}</span>*/}
+              {/* Display product price */}
+              {/* <span className="text-green-500 font-bold mb-4 block">{product.price}</span> */}
             </div>
             <div className="flex justify-between items-center mt-4">
               <Link 
@@ -74,10 +74,10 @@ const LiveDog = () => {
                 onClick={() => handleToggleWishlist(product)} 
                 className="text-lg transition duration-300"
               >
-                
+                {/* You can add the wishlist icon/button here */}
               </button>
             </div>
-            <ToastContainer/>
+            <ToastContainer />
           </div>
         )) : (
           <p>No products available.</p>

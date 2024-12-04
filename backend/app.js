@@ -18,12 +18,16 @@ connectDatabase();
 // CORS Options
 const corsOptions = {
     origin: [
-        'http://localhost:3000',  // உள்ளூர் அபிவிருத்தி URL
-        'http://3.110.194.242:5001'  // வெளிப்புற IP (உங்கள் சர்வர் URL)
+        'http://localhost:3000',  // React app
+        'http://3.110.194.242:5001'  // உங்கள் Backend IP address
     ], 
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
     credentials: true,
+    preflightContinue: true,
+    allowedHeaders: ['Content-Type', 'Authorization'],
 };
+
+app.use(cors(corsOptions));
 
 
 // Middleware

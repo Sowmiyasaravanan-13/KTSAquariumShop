@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom'; // Import Link for navigation
 import { FaArrowLeft, FaArrowRight } from 'react-icons/fa';
 import FishVarietyMenu from '../Components/FishVarietyMenu';
-import {  ToastContainer } from 'react-toastify';
+import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 const LiveFish = () => {
@@ -17,7 +17,7 @@ const LiveFish = () => {
 
   useEffect(() => {
     setLoading(true);
-    fetch(`http://localhost:5001/api/v1/livefish?page=${currentPage}&limit=${productsPerPage}&variety=${selectedVariety}`)
+    fetch(`${process.env.REACT_APP_BACKEND_URL}/api/v1/livefish?page=${currentPage}&limit=${productsPerPage}&variety=${selectedVariety}`)
       .then(response => {
         if (!response.ok) {
           throw new Error('Network response was not ok');
@@ -59,7 +59,7 @@ const LiveFish = () => {
               >
                 <div>
                   <img
-                    src={`http://localhost:5001${product.image}`}
+                    src={`${process.env.REACT_APP_BACKEND_URL}${product.image}`} // Use backend URL for image
                     alt={product.name}
                     className="w-full h-48 object-cover mb-4 rounded animate-slow-fade"
                   />

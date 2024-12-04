@@ -1,7 +1,8 @@
 import React, { useEffect, useState, useContext } from 'react';
 import { Link } from 'react-router-dom';
 import { WishlistContext } from '../Context/WishlistContext';
-import { ToastContainer } from 'react-toastify';
+import { ToastContainer, toast } from 'react-toastify';
+import { FaHeart, FaRegHeart } from 'react-icons/fa';
 
 const LiveBirds = () => {
   const [products, setProducts] = useState([]);
@@ -9,8 +10,11 @@ const LiveBirds = () => {
   const [error, setError] = useState(null);
   const { addToWishlist, removeFromWishlist, isInWishlist } = useContext(WishlistContext);
 
+  // Set the backend URL dynamically, you can set it based on environment or config
+  const backendURL = process.env.REACT_APP_BACKEND_URL || 'http://localhost:5001'; // Default to localhost for development
+
   useEffect(() => {
-    fetch('http://localhost:5001/api/v1/livebirds')
+    fetch(`${backendURL}/api/v1/livebirds`)
       .then(response => {
         if (!response.ok) {
           throw new Error('Network response was not ok');
@@ -18,27 +22,28 @@ const LiveBirds = () => {
         return response.json();
       })
       .then(data => {
-        console.log(data); // Check what the API returns
-        setProducts(data.products || []); // Safely access the products array
+        setProducts(data.products || []);
         setLoading(false);
       })
       .catch(error => {
-        console.error('Error fetching live dog products:', error);
+        console.error('Error fetching live birds products:', error);
         setError('Failed to load products. Please try again later.');
         setLoading(false);
       });
-  }, []);
+  }, [backendURL]); // Include backendURL as a dependency
 
   const handleToggleWishlist = (product) => {
     if (isInWishlist(product.id)) {
       removeFromWishlist(product.id);
+      toast.success(`${product.name} removed from wishlist!`);
     } else {
       addToWishlist(product);
+      toast.success(`${product.name} added to wishlist!`);
     }
   };
 
-  if (loading) return <p>Loading...</p>;
-  if (error) return <p>{error}</p>;
+  if (loading) return <div className="flex justify-center items-center"><span className="loader"></span></div>;
+  if (error) return <p className="text-red-500 text-center">{error}</p>;
 
   return (
     <div className="container mx-auto mt-8">
@@ -52,7 +57,7 @@ const LiveBirds = () => {
             <div>
               {product.image ? (
                 <img 
-                  src={`http://localhost:5001${product.image}`} 
+                  src={`${backendURL}${product.image}`} 
                   alt={product.name} 
                   className="w-full h-48 object-cover mb-4 rounded" 
                 />
@@ -60,8 +65,6 @@ const LiveBirds = () => {
                 <p>No image available</p>
               )}
               <h2 className="text-xl font-bold mb-2">{product.name}</h2>
-              
-              {/*<span className="text-green-500 font-bold mb-4 block">{product.price}</span>*/}
             </div>
             <div className="flex justify-between items-center mt-4">
               <Link 
@@ -74,10 +77,14 @@ const LiveBirds = () => {
                 onClick={() => handleToggleWishlist(product)} 
                 className="text-lg transition duration-300"
               >
-                
+                {isInWishlist(product.id) ? (
+                  <FaHeart className="text-red-500" />
+                ) : (
+                  <FaRegHeart className="text-gray-500" />
+                )}
               </button>
             </div>
-            <ToastContainer/>
+            <ToastContainer />
           </div>
         )) : (
           <p>No products available.</p>
