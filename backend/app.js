@@ -15,18 +15,23 @@ const app = express();
 // Connect to the database
 connectDatabase();
 
+// CORS Options
 const corsOptions = {
-    origin: 'http://3.110.194.242:3000', // frontend URLs
+    origin: [
+        'http://localhost:3000',  // உள்ளூர் அபிவிருத்தி URL
+        'http://3.110.194.242:5001'  // வெளிப்புற IP (உங்கள் சர்வர் URL)
+    ], 
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
     credentials: true,
 };
+
+
 // Middleware
 app.use(cors(corsOptions)); // Allow CORS for development (limit in production)
 app.use(express.json()); // Parse JSON data
 app.use(cookieParser()); // Parse cookies
 
 // Serve static files from the uploads directory
-
 app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
 
 
@@ -61,7 +66,7 @@ app.use('/api/v1/', importedtanksRouter);
 // Razorpay Instance
 const razorpayInstance = new Razorpay({
     key_id: process.env.RAZORPAY_KEY_ID,
-    key_secret: process.env.RAZORPAY_KEY_SECRET
+    key_secret: process.env.RAZORPAY_KEY_SECRET,
 });
 
 // Razorpay Order Creation Route
@@ -76,7 +81,7 @@ app.post('/api/v1/payment/process', async (req, res) => {
             amount: amount * 100, // Convert to paise for INR
             currency: "INR",
             receipt: `receipt#${Date.now()}`,
-            payment_capture: 1
+            payment_capture: 1,
         };
 
         const order = await razorpayInstance.orders.create(options);

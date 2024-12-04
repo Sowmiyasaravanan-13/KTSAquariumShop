@@ -11,8 +11,9 @@ const BirdsAccessories = () => {
   useEffect(() => {
     // Use the environment variable for backend URL
     const backendUrl = process.env.REACT_APP_BACKEND_URL;
-    
-    fetch(`${backendUrl}/api/v1/birdsaccessories`) // Use dynamic backend URL
+
+    // Fetching bird accessories from the backend API
+    fetch(`${backendUrl}/api/v1/birdsaccessories`)
       .then(response => response.json())
       .then(data => setProducts(data.products))
       .catch(error => console.error('Error fetching bird accessories products:', error));
@@ -38,8 +39,9 @@ const BirdsAccessories = () => {
             className="border p-4 rounded relative transition-transform transform hover:scale-105 hover:shadow-lg flex flex-col justify-between"
           >
             <div>
+              {/* Ensure the full URL for the image */}
               <img 
-                src={`${process.env.REACT_APP_BACKEND_URL}${product.image}`} // Use dynamic backend URL for image
+                src={`${process.env.REACT_APP_BACKEND_URL}${product.image}`} 
                 alt={product.name} 
                 className="w-full h-48 object-cover mb-4 rounded" 
               />

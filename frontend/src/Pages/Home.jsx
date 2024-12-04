@@ -4,7 +4,7 @@ import WhatsAppChat from '../Components/WhatsAppChat'; // Adjust the path as nee
 import MetaData from '../layouts/MetaData';           // Adjust the path as needed
 
 const Home = () => {
-  const backendUrl = 'http://localhost:5001'; // Replace with your actual backend URL
+  const backendUrl = process.env.REACT_APP_BACKEND_URL; // Use the dynamic backend URL
   const navigate = useNavigate(); 
 
   const handleSeeAllClick = () => {
@@ -70,7 +70,7 @@ const Home = () => {
           </h1>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mb-8 px-2">
-            {[
+            {[ 
               { src: `${backendUrl}/uploads/images/ArowanaFish.jpeg`, alt: "Arowana Fish" },
               { src: `${backendUrl}/uploads/images/GoldenYellowBackLinFish.jpeg`, alt: "Golden Yellow Back Lin Fish" },
               { src: `${backendUrl}/uploads/images/AlbinoSenegalFish.jpeg`, alt: "Albino Senegal Fish" },
@@ -97,7 +97,7 @@ const Home = () => {
           </h1>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
-            {[
+            {[ 
               { src: `${backendUrl}/uploads/images/GoldenRetreiver.jpeg`, alt: "Golden Retriever" },
               { src: `${backendUrl}/uploads/images/Husky.jpeg`, alt: "Husky" },
               { src: `${backendUrl}/uploads/images/GermanShepherd.jpeg`, alt: "German Shepherd" },
@@ -124,7 +124,7 @@ const Home = () => {
           </h1>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
-            {[
+            {[ 
               { src: `${backendUrl}/uploads/images/Anubiasbarteributterfly.jpeg`, alt: "Anubias Barteri Butterfly" },
               { src: `${backendUrl}/uploads/images/RS338AirPump.jpeg`, alt: "RS338 Air Pump" },
               { src: `${backendUrl}/uploads/images/RS740SubmersiblePump.jpeg`, alt: "RS740 Submersible Pump" },
