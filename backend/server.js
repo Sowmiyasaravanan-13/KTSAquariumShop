@@ -5,8 +5,8 @@ const connectDatabase = require('./config/database');
 
 connectDatabase();
 
-const server = app.listen(process.env.PORT || 5001,()=>{
-    console.log(`My Server listening to the port: ${process.env.PORT || 5001}`)
+const server = app.listen(process.env.PORT || 5002,()=>{
+    console.log(`My Server listening to the port: ${process.env.PORT || 5002}`)
 })
 
 process.on('unhandledRejection',(err)=>{
