@@ -18,26 +18,26 @@ connectDatabase();
 // CORS Options
 const corsOptions = {
     origin: [
-        'http://localhost:3000',  // React app
-        'http://3.110.194.242:5001'  // உங்கள் Backend IP address
-    ], 
+        'http://localhost:3000', // React app for local development
+        'http://3.110.194.242:5001', // Backend IP address for frontend access
+        'http://3.110.194.242' // Allow the public IP address
+    ],
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
     credentials: true,
     preflightContinue: true,
     allowedHeaders: ['Content-Type', 'Authorization'],
 };
 
-app.use(cors(corsOptions));
+app.use(cors(corsOptions)); // Ensure CORS middleware is correctly applied
+
 
 
 // Middleware
-app.use(cors(corsOptions)); // Allow CORS for development (limit in production)
 app.use(express.json()); // Parse JSON data
 app.use(cookieParser()); // Parse cookies
 
-// Serve static files from the uploads directory
+// Serve static files from the uploads directory (CORS included)
 app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
-
 
 // Routers
 const authRouter = require('./routes/auth');

@@ -10,7 +10,7 @@ const LiveDog = () => {
   const { addToWishlist, removeFromWishlist, isInWishlist } = useContext(WishlistContext);
 
   useEffect(() => {
-    fetch(`${process.env.REACT_APP_BACKEND_URL}/api/v1/livedog`) // Hardcoded backend URL
+    fetch("http://3.110.194.242:5001/api/v1/livedog") // Hardcoded backend URL
       .then(response => {
         if (!response.ok) {
           throw new Error('Network response was not ok');

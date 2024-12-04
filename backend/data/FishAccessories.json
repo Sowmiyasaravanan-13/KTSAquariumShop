@@ -5,7 +5,7 @@
             "id": 1,
             "name":" RS 180 AIR PUMP 3W",
             "description":"The RS180 Air Pump efficiently aerates aquariums, promoting healthy aquatic environments.",
-            "image":"/uploads/images/RS180AirPump.jpeg", 
+            "image":"http://3.110.194.242:5001/uploads/images/RS180AirPump.jpeg", 
             "originalPrice":"250.00",
             "price":"200.00",
             "quantity":25,
@@ -15,91 +15,91 @@
         },
         {
             "id":2,
-            "image":"/uploads/images/RS2800AirPump.jpeg",
+            "image":"http://3.110.194.242:5001/uploads/images/RS2800AirPump.jpeg",
             "name":"RS 2800 AIR PUMP 3W",
             "price":250.00,
             "originalPrice":260.00
         },
         {
             "id":3,
-            "image":"/uploads/images/RS312AirPump.jpeg",
+            "image":"http://3.110.194.242:5001/uploads/images/RS312AirPump.jpeg",
             "name":"RS 312 Air Pump",
             "price" :500.00,
             "originalPrice":520.00
         },
         {
             "id":4,
-            "image":"/uploads/images/RS501AirPump.jpeg",
+            "image":"http://3.110.194.242:5001/uploads/images/RS501AirPump.jpeg",
             "name":"RS 501 AIR PUMP",
             "price":350.00,
             "originalPrice":380.00
         },
         {
             "id":5,
-            "image":"/uploads/images/RS338AirPump.jpeg",
+            "image":"http://3.110.194.242:5001/uploads/images/RS338AirPump.jpeg",
             "name":"RS 338 AIR PUMP 5 W",
             "price":350.00,
             "originalPrice":380.00
         },
         {
             "id":6,
-            "image":"/uploads/images/RS101PortableBatteryPump.jpeg",
+            "image":"http://3.110.194.242:5001/uploads/images/RS101PortableBatteryPump.jpeg",
             "name":"RS 101 PORTABLE BATTERY PUMP",
             "price":350.00,
             "originalPrice":380.00
         },
         {
             "id":7,
-            "image":"/uploads/images/RS314AirPumpWithRechargable.jpeg",
+            "image":"http://3.110.194.242:5001/uploads/images/RS314AirPumpWithRechargable.jpeg",
             "name":"RS 314 AIR PUMP WITH RECHARGABLE WITH IN 2W",
             "price":1300.00,
             "originalPrice":1450.00
         },
         {
             "id":8,
-            "image":"/uploads/images/RS730SubmersiblePump.jpeg",
+            "image":"http://3.110.194.242:5001/uploads/images/RS730SubmersiblePump.jpeg",
             "name":"RS 730 SUBMERSIBLE PUMP 25 W",
             "price":720.00,
             "originalPrice":750.00
         },
         {
             "id":9,
-            "image":"/uploads/images/RS740SubmersiblePump.jpeg",
+            "image":"http://3.110.194.242:5001/uploads/images/RS740SubmersiblePump.jpeg",
             "name":"RS 740 SUBMERSIBLE PUMP 35W",
             "price":800.00,
             "originalPrice":850.00
         },
         {
             "id":10,
-            "image":"/uploads/images/RS750SubmersiblePump.jpeg",
+            "image":"http://3.110.194.242:5001/uploads/images/RS750SubmersiblePump.jpeg",
             "name":"RS 750 SUBMERSIBLE PUMP 35W",
             "price":900.00,
             "originalPrice":950.00
         },
         {
             "id":11,
-            "image":"/uploads/images/RS701WaterPump18 3W.jpeg",
+            "image":"http://3.110.194.242:5001/uploads/images/RS701WaterPump18 3W.jpeg",
             "name":"RS 701 WATER PUMP 18 3W",
             "price":300.00,
             "originalPrice":320.00
         },
         {
             "id":12,
-            "image":"/uploads/images/RS932WaterPump18W.jpeg",
+            "image":"http://3.110.194.242:5001/uploads/images/RS932WaterPump18W.jpeg",
             "name":"RS 701 WATER PUMP 18W",
             "price":640.00,
             "originalPrice":680.00
         },
         {
             "id":13,
-            "image":"/uploads/images/RS942WaterPump28W.jpeg",
+            "image":"http://3.110.194.242:5001/uploads/images/RS942WaterPump28W.jpeg",
             "name":"RS-942 WATER PUMP 28W",
             "price":860.00,
             "originalPrice":900.00
         },
         {
             "id":14,
-            "image":"/uploads/images/RS1600SubmersibleWaterPump.jpeg",
+            "image":"http://3.110.194.242:5001/uploads/images/RS1600SubmersibleWaterPump.jpeg",
             "name":"RS 1600 SUBMERSIBLE WATER PUMP 30W",
             "price":1220.00,
             "originalPrice":1300.00

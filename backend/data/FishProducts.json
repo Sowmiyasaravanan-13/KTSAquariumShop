@@ -3,7 +3,7 @@
     {
       "id": 1,
       "name": "ALBINO SUCKER CAT FISH",
-      "image": "/uploads/images/AlbinoSuckerCatFish.jpeg",
+      "image": "http://3.110.194.242:5001/uploads/images/AlbinoSuckerCatFish.jpeg",
       "price": "₹35.00-₹45.00",
       "variety":"Albino Fish",
       "rating": 4.5
@@ -11,7 +11,7 @@
     {
       "id": 2,
       "name": "OHM FIGHTER FISH",
-      "image": "/uploads/images/OHMFighterFish.jpeg",
+      "image": "http://3.110.194.242:5001/uploads/images/OHMFighterFish.jpeg",
       "price": "₹70.00-₹85.00",
       "variety":"Betta Fish",
       "rating": 4.0
@@ -19,7 +19,7 @@
     {
       "id": 3,
       "name": "FIRE MOUTH",
-      "image": "/uploads/images/FireMouth.jpeg",
+      "image": "http://3.110.194.242:5001/uploads/images/FireMouth.jpeg",
       "price": "₹135.00-₹145.00",
       "variety":"Chichlids",
       "rating": 4.3
@@ -27,7 +27,7 @@
     {
       "id": 4,
       "name": "BLACK KOI FISH",
-      "image": "/uploads/images/BlackKoiFish.jpeg",
+      "image": "http://3.110.194.242:5001/uploads/images/BlackKoiFish.jpeg",
       "price": "₹200.00-₹300.00",
       "variety":"Koi Fish",
       "rating": 4.7
@@ -35,7 +35,7 @@
     {
       "id": 5,
       "name": "PUFFER FISH BIG",
-      "image": "/uploads/images/PufferFishBig.jpeg",
+      "image": "http://3.110.194.242:5001/uploads/images/PufferFishBig.jpeg",
       "price": "₹40.00-₹60.00",
       "variety":"Puffer Fish",
       "rating": 4.2
@@ -43,7 +43,7 @@
     {
       "id": 6,
       "name": "PUFFER FISH SMALL",
-      "image": "/uploads/images/PufferFishSmall.jpeg",
+      "image": "http://3.110.194.242:5001/uploads/images/PufferFishSmall.jpeg",
       "price": "₹25.00-₹35.00",
       "variety":"Puffer Fish",
       "rating": 4.8
@@ -60,7 +60,7 @@
       "id": 8,
       "name": "ALBINO RAINBOW SHARK FISH",
       
-      "image": "/uploads/images/AlbinoRainbowSharkFish.jpeg",
+      "image": "http://3.110.194.242:5001/uploads/images/AlbinoRainbowSharkFish.jpeg",
       "price": "₹55.00-₹65.00",
       "variety":"Albino Fish",
       "rating": 4.4
@@ -68,7 +68,7 @@
     {
       "id": 9,
       "name": "TIGER SHARK FISH",
-      "image": "/uploads/images/TigerSharkFish.jpeg",
+      "image": "http://3.110.194.242:5001/uploads/images/TigerSharkFish.jpeg",
       "price": "₹140.00-₹160.00",
       "variety":"Shark Fish",
       "rating": 4.1
@@ -76,7 +76,7 @@
     {
       "id": 10,
       "name": "RAINBOW SHARK FISH",
-      "image": "/uploads/images/RainbowSharkFish.jpeg",
+      "image": "http://3.110.194.242:5001/uploads/images/RainbowSharkFish.jpeg",
       "price": "₹70.00-₹80.00",
       "variety":"Shark Fish",
       "rating": 4.9
@@ -84,7 +84,7 @@
     {
       "id": 11,
       "name": "KISSING GOURAMI FISH",
-      "image": "/uploads/images/KissingGouramiFish.jpeg",
+      "image": "http://3.110.194.242:5001/uploads/images/KissingGouramiFish.jpeg",
       "price": "₹75.00-₹85.00",
       "variety":"Gourami Fish",
       "rating": 4.0
@@ -92,7 +92,7 @@
     {
       "id": 12,
       "name": "GUPPY FISH FEMALE",
-      "image": "/uploads/images/GuppyFishFemale.jpeg",
+      "image": "http://3.110.194.242:5001/uploads/images/GuppyFishFemale.jpeg",
       "price": "₹15.00-₹25.00",
       "variety":"Guppy",
       "rating": 4.2
@@ -100,7 +100,7 @@
     {
       "id": 13,
       "name": "GUPPY FISH MALE",
-      "image": "/uploads/images/GuppyFishMale.jpeg",
+      "image": "http://3.110.194.242:5001/uploads/images/GuppyFishMale.jpeg",
       "price": "₹75.00-₹85.00",
       "variety":"Guppy",
       "rating": 4.1
@@ -108,7 +108,7 @@
     {
       "id": 14,
       "name": "ANGEL FISH",
-      "image": "/uploads/images/AngelFish.jpeg",
+      "image": "http://3.110.194.242:5001/uploads/images/AngelFish.jpeg",
       "price": "₹75.00-₹85.00",
       "variety":"Angel Fish",
       "rating": 4.2
@@ -116,7 +116,7 @@
     {
       "id": 15,
       "name": "GREEN BLUE ZEBRA FISH",
-      "image": "/uploads/images/GreenZeebraFish.jpeg",
+      "image": "http://3.110.194.242:5001/uploads/images/GreenZeebraFish.jpeg",
       "price": "₹15.00-₹25.00",
       "variety":"Zebra Fish",
       "rating": 4.5
@@ -124,7 +124,7 @@
     {
       "id":16,
       "name":"PINK ZEEBRA FISH",
-      "image":"/uploads/images/PinkZeebraFish.jpeg",
+      "image":"http://3.110.194.242:5001/uploads/images/PinkZeebraFish.jpeg",
       "price":"₹10.00-₹20.00",
       "variety":"Zebra Fish",
       "rating":4.0
@@ -132,7 +132,7 @@
     {
       "id":17,
       "name":"TIGER BARB FISH",
-      "image":"/uploads/images/TigerBarbFish.jpeg",
+      "image":"http://3.110.194.242:5001/uploads/images/TigerBarbFish.jpeg",
       "price":"₹30.00-₹40.00",
       "variety":"Tiger Barb",
       "rating":3.9
@@ -140,7 +140,7 @@
     {
       "id":18,
       "name":"RED & WHITE KOI FISH",
-      "image":"/uploads/images/RedandWhiteKoiFish.jpeg",
+      "image":"http://3.110.194.242:5001/uploads/images/RedandWhiteKoiFish.jpeg",
       "price":"₹100.00-₹200.00",
       "variety":"Koi Fish",
       "rating":4.0
@@ -148,7 +148,7 @@
     {
       "id":19,
       "name":"RED CAP FISH",
-      "image":"/uploads/images/RedCapFish.jpeg",
+      "image":"http://3.110.194.242:5001/uploads/images/RedCapFish.jpeg",
       "price":"₹75.00-₹85.00",
       "variety":"Oranda Fish",
       "rating":4.2
@@ -156,7 +156,7 @@
     {
       "id":20,
       "name":"ORANDA BIG FISH",
-      "image":"/uploads/images/OrandaBigFish.jpeg",
+      "image":"http://3.110.194.242:5001/uploads/images/OrandaBigFish.jpeg",
       "price":"₹75.00-₹85.00",
       "variety":"Oranda Fish",
       "rating":4.3
@@ -164,7 +164,7 @@
     {
       "id":21,
       "name":"ORANDA MEDIUM FISH",
-      "image":"/uploads/images/OrandaMediumFish.jpeg",
+      "image":"http://3.110.194.242:5001/uploads/images/OrandaMediumFish.jpeg",
       "price":"₹65.00-₹75.00",
       "variety":"Oranda Fish",
       "rating":4.3
